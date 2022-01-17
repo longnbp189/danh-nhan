@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".DanhNhanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white_blue"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnHH1"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_back"
+           />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Thông tin chi tiết"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/item"/>
+</ScrollView>
+<!--    <ImageView-->
+<!--        android:layout_gravity="center"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:id="@+id/imgg"-->
+<!--        />-->
+<!--    <RelativeLayout-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/ten"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="24dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/m1"-->
+<!--            android:layout_below="@+id/ten"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Năm sinh:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/txt11"-->
+<!--            android:layout_toRightOf="@+id/m1"-->
+<!--            android:layout_below="@+id/ten"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Năm sinh:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/m2"-->
+<!--            android:layout_below="@+id/m1"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Quê quán:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/txt22"-->
+<!--            android:layout_toRightOf="@+id/m1"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+
+<!--            android:layout_below="@+id/m1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Năm sinh:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/m3"-->
+<!--            android:layout_below="@+id/txt22"-->
+<!--            android:layout_marginBottom="10dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mô tả:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/txt33"-->
+<!--            android:layout_toRightOf="@+id/m3"-->
+<!--            android:layout_marginLeft="11dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+
+<!--            android:layout_below="@+id/txt22"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Năm sinh:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/m4"-->
+<!--            android:layout_below="@+id/txt33"-->
+<!--            android:layout_marginBottom="10dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Nguồn:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/txt44"-->
+<!--            android:layout_toRightOf="@+id/m4"-->
+<!--            android:layout_marginBottom="10dp"-->
+
+<!--            android:layout_below="@+id/txt33"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Nguoikesu.com"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="16dp"-->
+<!--            />-->
+
+<!--    </RelativeLayout>-->
+</LinearLayout>
